@@ -11,9 +11,6 @@ Nesse breve artigo iremos abordar o primeiro principio da **SODIC** que é o **p
 ```c++
 class estado{
 		public:
-				//Construtor
-				estado();
-
 				double calc_idh();
 
 				void get_pupulacao();
