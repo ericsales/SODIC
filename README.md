@@ -1,5 +1,5 @@
 # SOLID
-**SODIC** e um acronimo criado por *Michael Feathers*. Em que cada letra se relaciona a um topico de boas praticas de programação.
+**SOLID** e um acronimo criado por *Michael Feathers*. Em que cada letra se relaciona a um topico de boas praticas de programação.
 > **S** --- Single responsibility principle (**Princípio da responsabilidade única**)\
 > **O** --- Open/closed principle (**Principio aberto/fechado**)\
 > **L** --- Liskov Substitution Principle (**Princípio da substituição de Liskov**)\
