@@ -13,9 +13,9 @@ class estado{
 		public:
 				double calc_idh();
 
-				void get_pupulacao();
-				void get_area();
-				void get_idade();
+				int get_pupulacao();
+				double get_area();
+				int get_idade();
 
 				double calc_pib();
 
