@@ -10,17 +10,17 @@ Nesse breve artigo iremos abordar o primeiro principio da **SODIC** que é o **p
 
 ```c++
 class estado{
-		public:
-				double calc_idh();
+	public:
+		double calc_idh();
 
-				int get_pupulacao();
-				double get_area();
-				int get_idade();
+		int get_pupulacao();
+		double get_area();
+		int get_idade();
 
-				double calc_pib();
+		double calc_pib();
 
-				double calc_bolsa_valores();
-		private:
-				//Atributos
+		double calc_bolsa_valores();
+	private:
+		//Atributos
 };
 ```
