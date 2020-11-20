@@ -19,8 +19,38 @@ class estado{
 
 		double calc_pib();
 
-		double calc_bolsa_valores();
 	private:
+		//Atributos
+};
+```
+> **Nota**: exemplo escrito em C++
+
+Vejamos que a classe **estado** possui os métodos *calc_idh* e *calc_pib* que são atributos que não somente estados possuem, países e cidades também possuem PIB e um IDH se futuramente desejar se expandir para incluir cidades ou países teríamos que refazer os métodos *calc_idh* e *calc_pib* e não poderíamos reaproveitar linhas de código. Conforme o código for crescendo fica difícil realizar a manutenção desde. E para arrumar esse problema aplicamos o princípio da responsabilidade única. Vejamos o exemplo:
+
+```c++
+class estado{
+	public:
+		int get_pupulacao();
+		double get_area();
+		int get_idade();
+	
+private:
+		//Atributos
+};
+
+class IDH{
+public:
+		double calc_idh();
+
+private:
+		//Atributos
+};
+
+class PIB{
+public:
+		double calc_pib();
+
+private:
 		//Atributos
 };
 ```
