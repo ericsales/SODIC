@@ -1,5 +1,6 @@
 # SOLID
-###### Autor: Eric Sales Vitor Junior				Data: 20/11/2020
+###### Autor: Eric Sales Vitor Junior
+###### Data: 20/11/2020
 **SOLID** é um acronimo criado por *Michael Feathers*. Em que cada letra se relaciona a um tópico de boas práticas de programação.
 > **S** --- Single responsibility principle (**Princípio da responsabilidade única**)\
 > **O** --- Open/closed principle (**Principio aberto/fechado**)\
