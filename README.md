@@ -34,23 +34,23 @@ class estado{
 		double get_area();
 		int get_idade();
 	
-private:
+	private:
 		//Atributos
 };
 
 class IDH{
-public:
+	public:
 		double calc_idh();
 
-private:
+	private:
 		//Atributos
 };
 
 class PIB{
-public:
+	public:
 		double calc_pib();
 
-private:
+	private:
 		//Atributos
 };
 ```
