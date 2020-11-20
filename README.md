@@ -54,3 +54,5 @@ class PIB{
 		//Atributos
 };
 ```
+Temos agora uma divisão das responsabilidades em que cada classe responde sobre a sua responsabilidade. Perceba que não temos mais uma classe que faz tudo, isso torna o código muito mais fácil de ler e modificar já que se temos uma modificação para fazer basta procurar a classe responsável.
+
