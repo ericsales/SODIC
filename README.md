@@ -1,4 +1,4 @@
-# SOLID
+# SOLID - O Princípio da responsabilidade única aplicado a Programação orientada a objetos
 ###### Autor: Eric Sales Vitor Junior
 ###### Data: 20/11/2020
 **SOLID** é um acronimo criado por *Michael Feathers*. Em que cada letra se relaciona a um tópico de boas práticas de programação.
